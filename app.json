@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Fitness App",
+    "slug": "fitness-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.jpeg",
+    "splash": {
+      "image": "./assets/fitness-image.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.fitnessapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.jpeg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.fitnessapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9647da8-4b1a-4c88-b399-00dfa90832ad"
+      }
+    }
+  }
+}
